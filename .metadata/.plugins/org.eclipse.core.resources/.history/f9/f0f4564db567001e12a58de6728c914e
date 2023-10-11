@@ -1,0 +1,5 @@
+package com.app.APIGateway.config;
+
+public class SecurityConfig {
+
+}

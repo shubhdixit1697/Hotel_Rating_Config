@@ -1,0 +1,13 @@
+package com.app.UserService.Service;
+
+import java.util.List;
+
+public interface HotelService {
+	
+	HotelService create(Hotel hotel);
+	
+	List<Hotel> getAll();
+	
+	HotelService get(String id);
+
+}

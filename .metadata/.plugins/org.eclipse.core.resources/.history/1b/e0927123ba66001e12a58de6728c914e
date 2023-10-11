@@ -1,0 +1,5 @@
+package com.app.UserService.Payload;
+
+public class ApiResponse {
+
+}

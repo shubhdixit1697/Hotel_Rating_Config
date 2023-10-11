@@ -1,0 +1,5 @@
+package com.app.UserService.Config.Interceptor;
+
+public class FeignClientInterceptor {
+
+}

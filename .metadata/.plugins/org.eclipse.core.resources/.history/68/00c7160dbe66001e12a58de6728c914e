@@ -1,0 +1,21 @@
+package com.app.UserService.Entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import javax.persistence.Entity;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Entity(name="Hotel")
+public class Hotel {
+	
+	private String id;
+	private String name;
+	private String location;
+	private String about;
+
+}

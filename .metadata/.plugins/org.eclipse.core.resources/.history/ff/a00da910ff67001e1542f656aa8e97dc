@@ -1,0 +1,5 @@
+package com.app.UserService.Config;
+
+public class WebSecurityConfig {
+
+}

@@ -1,0 +1,40 @@
+package com.app.UserService.Entities;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Entity
+@Table(name="Users")
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class User {
+
+	@Id
+	@Column(name = "Id")
+	private String userId;
+
+	@Column(name = "Email")
+	private String email;
+	
+	@Transient
+	private List<Rating> ratings = new ArrayList<>();
+
+	@Column(name = "About")
+	private String about;
+
+	@Column(name = "Name")
+	private String name;
+
+
+}

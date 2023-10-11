@@ -1,0 +1,5 @@
+package com.app.UserService.Entity;
+
+public class Entity {
+
+}

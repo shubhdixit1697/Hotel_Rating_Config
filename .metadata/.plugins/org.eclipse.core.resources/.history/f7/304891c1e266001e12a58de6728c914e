@@ -1,0 +1,14 @@
+server.port=9091
+
+#db
+spring.datasource.url=jdbc:postgresql://localhost:3306/microservices
+spring.datasource.username=root
+spring.datasource.password=root123
+
+
+
+
+spring.jpa.hibernate.ddlauto=update
+spring.jpa.show-sql=true
+
+

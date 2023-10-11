@@ -1,0 +1,12 @@
+
+server.port=9092
+
+#db
+spring.data.mongodb.uri=jdbc:postgresql://localhost:3306/microservices
+spring.data.mongodb.database=microservices
+spring.datasource.password=root123
+
+
+
+
+

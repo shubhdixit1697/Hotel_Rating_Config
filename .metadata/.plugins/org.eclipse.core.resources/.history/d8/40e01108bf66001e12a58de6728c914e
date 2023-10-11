@@ -1,0 +1,5 @@
+package com.app.UserService.Service;
+
+public interface HotelService {
+
+}

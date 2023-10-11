@@ -1,0 +1,9 @@
+eureka:
+  instance:
+    clien:
+      fetch-registry: false
+      register-with-eureka: false
+    hostname: localhost
+    
+server:
+	port:

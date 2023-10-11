@@ -1,0 +1,5 @@
+package com.app.RatingService.Entity;
+
+public class Rating {
+
+}
